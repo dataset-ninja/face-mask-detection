@@ -1,9 +1,7 @@
-**Face Mask Detection** is a dataset for object detection tasks. It is applicable or relevant across various domains.
+**Face Mask Detection** is a dataset for object detection task. Possible applications of the dataset could be in the safety industry. 
 
-The dataset consists of 853 images with 4072 labeled objects belonging to 3 different classes including _with_mask_, _without_mask_, and _mask_weared_incorrect_.
+The dataset consists of 853 images with 4072 labeled objects belonging to 3 different classes including *with_mask*, *without_mask*, and *mask_weared_incorrect*.
 
-Images in the Face Mask Detection dataset have bounding box annotations. All images are labeled (i.e. with annotations). There is 1 split in the dataset: _ds_ (853 images). The dataset was released in 2020.
+Images in the Face Mask Detection dataset have bounding box annotations. All images are labeled (i.e. with annotations). There are no pre-defined <i>train/val/test</i> splits in the dataset. The dataset was released in 2020.
 
-Here are the visualized examples for each of the 3 classes:
-
-[Dataset classes](https://github.com/dataset-ninja/face-mask-detection/raw/main/visualizations/horizontal_grid.webm)
+<img src="https://github.com/dataset-ninja/face-mask-detection/raw/main/visualizations/poster.png">
