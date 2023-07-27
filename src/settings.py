@@ -21,7 +21,7 @@ PROJECT_NAME_FULL: str = "Face Mask Detection"
 ##################################
 LICENSE: License = License.CC0_1_0()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Safety(is_used=False)]
-CATEGORY: Category = Category.Safety()
+CATEGORY: Category = Category.Safety(extra=Category.Surveillance())
 
 CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]
