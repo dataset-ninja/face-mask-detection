@@ -1,4 +1,4 @@
-**Face Mask Detection** is a dataset for object detection task. Possible applications of the dataset could be in the safety industry. 
+**Face Mask Detection** is a dataset for an object detection task. Possible applications of the dataset could be in the safety and surveillance industries. 
 
 The dataset consists of 853 images with 4072 labeled objects belonging to 3 different classes including *with_mask*, *without_mask*, and *mask_weared_incorrect*.
 
