@@ -20,7 +20,10 @@ PROJECT_NAME_FULL: str = "Face Mask Detection"
 # * After uploading to instance ##
 ##################################
 LICENSE: License = License.CC0_1_0()
-APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Safety(is_used=False)]
+APPLICATIONS: List[Union[Industry, Domain, Research]] = [
+    Industry.Safety(is_used=False),
+    Industry.Surveillance(is_used=False),
+]
 CATEGORY: Category = Category.Safety(extra=Category.Surveillance())
 
 CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
@@ -47,7 +50,11 @@ DOWNLOAD_ORIGINAL_URL: Optional[
 ] = "https://www.kaggle.com/datasets/andrewmvd/face-mask-detection/download?datasetVersionNumber=1"
 # Optional link for downloading original dataset (e.g. "https://some.com/dataset/download")
 
-CLASS2COLOR: Optional[Dict[str, List[str]]] = None
+CLASS2COLOR: Optional[Dict[str, List[str]]] = {
+    "with_mask": [230, 25, 75],
+    "without_mask": [0, 0, 128],
+    "mask_weared_incorrect": [240, 50, 230],
+}
 # If specific colors for classes are needed, fill this dict (e.g. {"class1": [255, 0, 0], "class2": [0, 255, 0]})
 
 PAPER: Optional[str] = None
