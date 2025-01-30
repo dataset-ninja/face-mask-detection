@@ -1,6 +1,6 @@
 Dataset **Face Mask Detection** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://www.dropbox.com/scl/fi/yukpfhxzkj14n05pghfw0/face-mask-detection-DatasetNinja.tar?rlkey=zn8arh18a71b95xonf0rl3dn9&dl=1)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzEzMjdfRmFjZSBNYXNrIERldGVjdGlvbi9mYWNlLW1hc2stZGV0ZWN0aW9uLURhdGFzZXROaW5qYS50YXIiLCAic2lnIjogInUvTXFZb0YwZzBHczVzTHMrVlFsSnlwemhMV0VUMktsUm1lWUdUeUV4K2c9In0=)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
